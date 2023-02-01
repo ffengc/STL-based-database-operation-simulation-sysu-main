@@ -1,0 +1,147 @@
+希望老师在批改作业之前可以简单看一下代码的文档 -- README.md 谢谢！
+/*代码已按照要求实现了题目中所有功能，详情请见代码的文档*/
+
+
+ ---------------------------------------- 打印2020级选修C语言且成绩小于60分的学生 ---------------------------------------- 
+ -------------------- Student Info Begin -------------------- 
+Name: jianfa
+Id: 10908
+Sex: Male
+Birthday: 19990702
+SchoolYear: 2020
+BirthPlace: hunan
+ ========= CourseInfo Begin ========= 
+CourseName: C Programming Language
+Credits : 3
+Score : 56
+
+CourseName: Advanced math
+Credits : 4
+Score : 80
+
+CourseName: College English
+Credits : 3.5
+Score : 80
+
+CourseName: Control Theory
+Credits : 2
+Score : 85
+
+CourseName: Python
+Credits : 2
+Score : 96
+
+TotalScore: 397
+AvgScore: 79.4
+TotalCredits : 14.5
+ ========= CourseInfo End =========== 
+ -------------------- Student Info End ---------------------- 
+ -------------------- Student Info Begin -------------------- 
+Name: dahong
+Id: 10914
+Sex: Male
+Birthday: 20000203
+SchoolYear: 2021
+BirthPlace: guangdong
+ ========= CourseInfo Begin ========= 
+CourseName: C Programming Language
+Credits : 3
+Score : 59
+
+CourseName: Advanced math
+Credits : 4
+Score : 70
+
+CourseName: College English
+Credits : 3.5
+Score : 79
+
+CourseName: Control Theory
+Credits : 2
+Score : 87
+
+CourseName: Python
+Credits : 2
+Score : 69
+
+TotalScore: 364
+AvgScore: 72.8
+TotalCredits : 14.5
+ ========= CourseInfo End =========== 
+ -------------------- Student Info End ---------------------- 
+
+
+ ---------------------------------------- 统计课程平均分大于80的学生个人信息并输出 ---------------------------------------- 
+ -------------------- Student Info Begin -------------------- 
+Name: xiaomi
+Id: 10919
+Sex: Female
+Birthday: 20011205
+SchoolYear: 2019
+BirthPlace: beijing
+ ========= CourseInfo Begin ========= 
+CourseName: C Programming Language
+Credits : 3
+Score : 91
+
+CourseName: Advanced math
+Credits : 4
+Score : 76
+
+CourseName: College English
+Credits : 3.5
+Score : 83
+
+CourseName: Control Theory
+Credits : 2
+Score : 86
+
+CourseName: Python
+Credits : 2
+Score : 81
+
+TotalScore: 417
+AvgScore: 83.4
+TotalCredits : 14.5
+ ========= CourseInfo End =========== 
+ -------------------- Student Info End ---------------------- 
+ -------------------- Student Info Begin -------------------- 
+Name: dabin
+Id: 10921
+Sex: Male
+Birthday: 19980206
+SchoolYear: 2018
+BirthPlace: hainan
+ ========= CourseInfo Begin ========= 
+CourseName: C Programming Language
+Credits : 3
+Score : 83
+
+CourseName: Advanced math
+Credits : 4
+Score : 79
+
+CourseName: College English
+Credits : 3.5
+Score : 81
+
+CourseName: Control Theory
+Credits : 2
+Score : 90
+
+TotalScore: 333
+AvgScore: 83.25
+TotalCredits : 12.5
+ ========= CourseInfo End =========== 
+ -------------------- Student Info End ---------------------- 
+
+
+ ----------------------------------------------- 查询每个学生是否修满20学分 ---------------------------------------------- 
+ ------ 以下学生修满了20个学分 ------ 
+ ------ 以下学生没有修满20个学分 ------ 
+10905
+10908
+10914
+10917
+10919
+10921
