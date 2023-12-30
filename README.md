@@ -3,7 +3,23 @@
 **实验要求用ofstream输出的结果在 result.txt 中**
 **其余接口的部分测试结果在 result_test.txt 中 （同样也是使用ofstream输出的，其中部分解释是手动输入的）**
 
-## 题目要求在代码中或文档的体现索引：
+## 项目需求
+
+模拟数据库的操作，主要读取`StudentInfo.txt`和`StudentCourse.txt`两张表，其中`StudentInfo.txt` 为学生个人信息表，包括学号 id、姓名 name、性 别 sex、出生年月 birthday、学年 schoolYear、籍贯 birthplace，StudentCourse.txt 为学生选课信息表，包括学号 id、选课 course、学分 credits、分数 score。
+
+1. 读入两个文本文件 StudentInfo.txt 和 StudentCourse.txt，使用合适的 STL 数据 结构存储两张表的信息，要求以下的操作效率要高，不建议临时做线性遍历 (即 n 个元素逐一访问)。查询结果需要联表打印出相关信息;如果有多个 条目，默认按照 id 排序。
+
+1. 提供排序操作，根据各个字段进行排序，比如 SortByName, SortByScore(单 项课程分数)，SortByTotalScore(总分数)，支持范围查询，比如查询某门 课分数在 80-90 之间的学生，注意合理设计接口，尽量做到代码简洁，少冗余。
+2. 提供查询和删除操作，根据各个字段进行条件删除。支持多种条件比如`sex == ‘M’ && (birthday.year > 2019 || score < 80)`(不用解析这个字符串表达式)，注 意删除要保持两个表格的一致性。
+3. 提供 Test 函数，具体测试以下用例，将结果**通过** **ofstream** **写入**到 result.txt 中
+   1. a)  打印 2020 级选修 C 语言且成绩小于 60 分的学生
+   2. b)  统计课程平均分大于 80 的学生个人信息并输出
+   3. c)  查询每个学生是否修满 20 学分
+
+**StudentCourse.txt 见文件所示。**
+
+## 项目需求在代码中或文档的体现索引：
+
 1. 使用stl存储两张表的信息 -- 见前期结构准备
 2. 要求效率高 -- 维护多棵红黑树 -- 保证查找效率 -- 见 前期结构准备
 3. 如果多个条目，默认用id的顺序 -- 查找中返回`set<size_t>`类型（key是id） -- 默认按照id排好序
