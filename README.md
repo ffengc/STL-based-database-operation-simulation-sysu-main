@@ -4,7 +4,6 @@
 **其余接口的部分测试结果在 result_test.txt 中 （同样也是使用ofstream输出的，其中部分解释是手动输入的）**
 
 ## 项目需求
-
 模拟数据库的操作，主要读取`StudentInfo.txt`和`StudentCourse.txt`两张表，其中`StudentInfo.txt` 为学生个人信息表，包括学号 id、姓名 name、性 别 sex、出生年月 birthday、学年 schoolYear、籍贯 birthplace，StudentCourse.txt 为学生选课信息表，包括学号 id、选课 course、学分 credits、分数 score。
 
 1. 读入两个文本文件 StudentInfo.txt 和 StudentCourse.txt，使用合适的 STL 数据 结构存储两张表的信息，要求以下的操作效率要高，不建议临时做线性遍历 (即 n 个元素逐一访问)。查询结果需要联表打印出相关信息;如果有多个 条目，默认按照 id 排序。
